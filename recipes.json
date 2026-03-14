@@ -1,0 +1,815 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Black Bean Tacos",
+      "time": 20,
+      "ingredients": {
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "taco shells": {"qty": "8", "section": "international"},
+        "lettuce": {"qty": "1/2 head", "section": "produce"},
+        "tomatoes": {"qty": "2", "section": "produce"},
+        "cheese": {"qty": "1 cup shredded", "section": "dairy"},
+        "sour cream": {"qty": "1/2 cup", "section": "dairy"},
+        "cumin": {"qty": "1 tsp", "section": "spices"},
+        "garlic": {"qty": "2 cloves", "section": "produce"}
+      },
+      "category": "Mexican",
+      "prep": "1. Drain and rinse beans, heat in pan with cumin and minced garlic. 2. Warm taco shells in oven. 3. Chop lettuce and dice tomatoes. 4. Assemble tacos with beans, toppings, cheese, and sour cream."
+    },
+    {
+      "id": 2,
+      "name": "Vegetable Stir Fry with Rice",
+      "time": 25,
+      "ingredients": {
+        "rice": {"qty": "1 cup", "section": "grains"},
+        "broccoli": {"qty": "2 cups", "section": "produce"},
+        "bell peppers": {"qty": "2", "section": "produce"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "soy sauce": {"qty": "3 tbsp", "section": "international"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "ginger": {"qty": "1 inch", "section": "produce"},
+        "vegetable oil": {"qty": "2 tbsp", "section": "oils"}
+      },
+      "category": "Asian",
+      "prep": "1. Start rice according to package. 2. Chop all vegetables into bite-sized pieces. 3. Heat oil in wok over high heat. 4. Stir fry garlic and ginger 30 seconds. 5. Add carrots first (2 min), then peppers and broccoli (3-4 min). 6. Add soy sauce, toss, serve over rice."
+    },
+    {
+      "id": 3,
+      "name": "Caprese Pasta",
+      "time": 20,
+      "ingredients": {
+        "pasta": {"qty": "12 oz", "section": "grains"},
+        "cherry tomatoes": {"qty": "2 cups", "section": "produce"},
+        "fresh mozzarella": {"qty": "8 oz", "section": "dairy"},
+        "basil": {"qty": "1/2 cup fresh", "section": "produce"},
+        "olive oil": {"qty": "3 tbsp", "section": "oils"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "balsamic vinegar": {"qty": "2 tbsp", "section": "oils"}
+      },
+      "category": "Italian",
+      "prep": "1. Cook pasta according to package, reserve 1/2 cup pasta water. 2. Halve tomatoes, cube mozzarella, chiffonade basil. 3. In pan, sauté garlic in olive oil 1 min. 4. Add tomatoes, cook until softened. 5. Toss with pasta, mozzarella, basil, and balsamic. Add pasta water if needed."
+    },
+    {
+      "id": 4,
+      "name": "Chickpea Curry",
+      "time": 25,
+      "ingredients": {
+        "chickpeas": {"qty": "2 cans", "section": "canned goods"},
+        "coconut milk": {"qty": "1 can", "section": "international"},
+        "diced tomatoes": {"qty": "1 can", "section": "canned goods"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "4 cloves", "section": "produce"},
+        "curry powder": {"qty": "2 tbsp", "section": "spices"},
+        "rice": {"qty": "1 cup", "section": "grains"},
+        "spinach": {"qty": "2 cups", "section": "produce"}
+      },
+      "category": "Indian",
+      "prep": "1. Start rice. 2. Sauté diced onion until soft (5 min). 3. Add garlic and curry powder, cook 1 min. 4. Add tomatoes, coconut milk, and drained chickpeas. 5. Simmer 15 min. 6. Stir in spinach until wilted. Serve over rice."
+    },
+    {
+      "id": 5,
+      "name": "Grilled Cheese and Tomato Soup",
+      "time": 15,
+      "ingredients": {
+        "bread": {"qty": "4 slices", "section": "bakery"},
+        "cheddar cheese": {"qty": "4 slices", "section": "dairy"},
+        "butter": {"qty": "2 tbsp", "section": "dairy"},
+        "tomato soup": {"qty": "2 cans", "section": "canned goods"}
+      },
+      "category": "American",
+      "prep": "1. Heat soup in pot according to can directions. 2. Butter outsides of bread slices. 3. Place cheese between bread (butter side out). 4. Grill in pan over medium heat until golden and cheese melts, 3-4 min per side."
+    },
+    {
+      "id": 6,
+      "name": "Vegetable Quesadillas",
+      "time": 20,
+      "ingredients": {
+        "tortillas": {"qty": "4 large", "section": "bakery"},
+        "cheese": {"qty": "2 cups shredded", "section": "dairy"},
+        "bell peppers": {"qty": "2", "section": "produce"},
+        "onion": {"qty": "1", "section": "produce"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "salsa": {"qty": "1/2 cup", "section": "international"},
+        "sour cream": {"qty": "1/2 cup", "section": "dairy"}
+      },
+      "category": "Mexican",
+      "prep": "1. Slice peppers and onion, sauté until soft (5-7 min). 2. Drain and rinse beans. 3. Place tortilla in dry pan, add cheese, veggies, beans to one half. 4. Fold and cook until golden (2-3 min per side). 5. Serve with salsa and sour cream."
+    },
+    {
+      "id": 7,
+      "name": "Pasta Primavera",
+      "time": 25,
+      "ingredients": {
+        "pasta": {"qty": "12 oz", "section": "grains"},
+        "zucchini": {"qty": "1", "section": "produce"},
+        "yellow squash": {"qty": "1", "section": "produce"},
+        "cherry tomatoes": {"qty": "1 cup", "section": "produce"},
+        "parmesan cheese": {"qty": "1/2 cup grated", "section": "dairy"},
+        "olive oil": {"qty": "3 tbsp", "section": "oils"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "Italian seasoning": {"qty": "1 tsp", "section": "spices"}
+      },
+      "category": "Italian",
+      "prep": "1. Cook pasta, reserve pasta water. 2. Slice zucchini and squash into half-moons, halve tomatoes. 3. Sauté garlic in olive oil 30 sec. 4. Add squash, cook 5 min. Add tomatoes, cook 2 min more. 5. Season with Italian seasoning. 6. Toss with pasta and parmesan."
+    },
+    {
+      "id": 8,
+      "name": "Bean and Cheese Burritos",
+      "time": 15,
+      "ingredients": {
+        "tortillas": {"qty": "4 large", "section": "bakery"},
+        "refried beans": {"qty": "1 can", "section": "canned goods"},
+        "cheese": {"qty": "1 cup shredded", "section": "dairy"},
+        "rice": {"qty": "1 cup cooked", "section": "grains"},
+        "salsa": {"qty": "1/2 cup", "section": "international"},
+        "lettuce": {"qty": "1 cup shredded", "section": "produce"},
+        "sour cream": {"qty": "1/4 cup", "section": "dairy"}
+      },
+      "category": "Mexican",
+      "prep": "1. Heat refried beans in pot or microwave. 2. Warm tortillas in dry pan or microwave. 3. Spread beans down center of tortilla. 4. Add rice, cheese, lettuce. 5. Top with salsa and sour cream. 6. Fold sides in, then roll up tightly."
+    },
+    {
+      "id": 9,
+      "name": "Mushroom Risotto",
+      "time": 30,
+      "ingredients": {
+        "arborio rice": {"qty": "1 cup", "section": "grains"},
+        "mushrooms": {"qty": "8 oz", "section": "produce"},
+        "vegetable broth": {"qty": "4 cups", "section": "canned goods"},
+        "parmesan cheese": {"qty": "1/2 cup grated", "section": "dairy"},
+        "white wine": {"qty": "1/2 cup", "section": "alcohol"},
+        "onion": {"qty": "1 small", "section": "produce"},
+        "butter": {"qty": "3 tbsp", "section": "dairy"},
+        "garlic": {"qty": "2 cloves", "section": "produce"}
+      },
+      "category": "Italian",
+      "prep": "1. Heat broth, keep warm. 2. Sauté sliced mushrooms in 1 tbsp butter, set aside. 3. Sauté onion and garlic in remaining butter. 4. Add rice, toast 2 min. 5. Add wine, stir until absorbed. 6. Add broth 1/2 cup at a time, stirring until absorbed. 7. Stir in mushrooms and parmesan."
+    },
+    {
+      "id": 10,
+      "name": "Greek Salad with Pita",
+      "time": 15,
+      "ingredients": {
+        "cucumber": {"qty": "1 large", "section": "produce"},
+        "tomatoes": {"qty": "2", "section": "produce"},
+        "red onion": {"qty": "1/2", "section": "produce"},
+        "feta cheese": {"qty": "4 oz", "section": "dairy"},
+        "olives": {"qty": "1/2 cup", "section": "canned goods"},
+        "olive oil": {"qty": "3 tbsp", "section": "oils"},
+        "lemon": {"qty": "1", "section": "produce"},
+        "pita bread": {"qty": "4", "section": "bakery"}
+      },
+      "category": "Mediterranean",
+      "prep": "1. Chop cucumber and tomatoes into chunks. 2. Thinly slice red onion. 3. Combine veggies with olives in bowl. 4. Crumble feta over top. 5. Drizzle with olive oil and lemon juice. 6. Warm pita in oven or toaster. Serve alongside."
+    },
+    {
+      "id": 11,
+      "name": "Spinach and Ricotta Stuffed Shells",
+      "time": 30,
+      "ingredients": {
+        "jumbo pasta shells": {"qty": "20", "section": "grains"},
+        "ricotta cheese": {"qty": "15 oz", "section": "dairy"},
+        "spinach": {"qty": "10 oz frozen", "section": "frozen"},
+        "mozzarella cheese": {"qty": "1 cup shredded", "section": "dairy"},
+        "marinara sauce": {"qty": "24 oz jar", "section": "canned goods"},
+        "parmesan cheese": {"qty": "1/4 cup grated", "section": "dairy"},
+        "egg": {"qty": "1", "section": "dairy"},
+        "garlic": {"qty": "2 cloves", "section": "produce"}
+      },
+      "category": "Italian",
+      "prep": "1. Cook shells until just al dente, drain. 2. Thaw and squeeze dry spinach. 3. Mix ricotta, spinach, egg, garlic, half the mozzarella. 4. Spread half marinara in baking dish. 5. Fill shells, place in dish. 6. Top with remaining sauce and cheese. 7. Bake 375°F for 25 min."
+    },
+    {
+      "id": 12,
+      "name": "Pad Thai (Vegetarian)",
+      "time": 25,
+      "ingredients": {
+        "rice noodles": {"qty": "8 oz", "section": "international"},
+        "eggs": {"qty": "2", "section": "dairy"},
+        "tofu": {"qty": "14 oz block", "section": "produce"},
+        "bean sprouts": {"qty": "1 cup", "section": "produce"},
+        "green onions": {"qty": "4", "section": "produce"},
+        "peanuts": {"qty": "1/4 cup", "section": "snacks"},
+        "soy sauce": {"qty": "3 tbsp", "section": "international"},
+        "lime": {"qty": "1", "section": "produce"}
+      },
+      "category": "Asian",
+      "prep": "1. Soak noodles in hot water until soft. 2. Press and cube tofu, fry until golden. 3. Scramble eggs, set aside. 4. Stir fry noodles with soy sauce. 5. Add tofu, eggs, bean sprouts, sliced green onions. 6. Serve with crushed peanuts and lime wedges."
+    },
+    {
+      "id": 13,
+      "name": "Minestrone Soup",
+      "time": 30,
+      "ingredients": {
+        "vegetable broth": {"qty": "6 cups", "section": "canned goods"},
+        "diced tomatoes": {"qty": "1 can", "section": "canned goods"},
+        "kidney beans": {"qty": "1 can", "section": "canned goods"},
+        "pasta": {"qty": "1 cup small", "section": "grains"},
+        "zucchini": {"qty": "1", "section": "produce"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "celery": {"qty": "2 stalks", "section": "produce"},
+        "onion": {"qty": "1", "section": "produce"}
+      },
+      "category": "Italian",
+      "prep": "1. Dice onion, carrots, celery, zucchini. 2. Sauté onion, carrots, celery 5 min. 3. Add broth, tomatoes, bring to boil. 4. Add pasta, cook 5 min. 5. Add zucchini and drained beans, cook 5 min more. 6. Season with salt, pepper, Italian herbs."
+    },
+    {
+      "id": 14,
+      "name": "Falafel Wraps",
+      "time": 25,
+      "ingredients": {
+        "falafel mix": {"qty": "1 box", "section": "international"},
+        "pita bread": {"qty": "4", "section": "bakery"},
+        "cucumber": {"qty": "1", "section": "produce"},
+        "tomatoes": {"qty": "2", "section": "produce"},
+        "lettuce": {"qty": "2 cups", "section": "produce"},
+        "tzatziki sauce": {"qty": "1 cup", "section": "dairy"},
+        "red onion": {"qty": "1/2", "section": "produce"}
+      },
+      "category": "Mediterranean",
+      "prep": "1. Prepare falafel mix according to package (usually add water, form patties, pan fry). 2. Dice cucumber and tomatoes. 3. Slice red onion thinly. 4. Warm pita. 5. Spread tzatziki on pita, add falafel, veggies, and lettuce. Roll up."
+    },
+    {
+      "id": 15,
+      "name": "Margherita Pizza",
+      "time": 20,
+      "ingredients": {
+        "pizza dough": {"qty": "1 lb", "section": "refrigerated"},
+        "marinara sauce": {"qty": "1/2 cup", "section": "canned goods"},
+        "fresh mozzarella": {"qty": "8 oz", "section": "dairy"},
+        "basil": {"qty": "1/4 cup fresh", "section": "produce"},
+        "olive oil": {"qty": "1 tbsp", "section": "oils"}
+      },
+      "category": "Italian",
+      "prep": "1. Preheat oven to 450°F (or highest setting). 2. Stretch dough on floured surface. 3. Transfer to oiled baking sheet or pizza stone. 4. Spread sauce, leaving border. 5. Add torn mozzarella pieces. 6. Bake 12-15 min until crust is golden. 7. Top with fresh basil and olive oil drizzle."
+    },
+    {
+      "id": 16,
+      "name": "Lentil Soup",
+      "time": 30,
+      "ingredients": {
+        "lentils": {"qty": "1 cup dried", "section": "grains"},
+        "vegetable broth": {"qty": "6 cups", "section": "canned goods"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "celery": {"qty": "2 stalks", "section": "produce"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "diced tomatoes": {"qty": "1 can", "section": "canned goods"},
+        "cumin": {"qty": "1 tsp", "section": "spices"}
+      },
+      "category": "Mediterranean",
+      "prep": "1. Rinse lentils. 2. Dice onion, carrots, celery. 3. Sauté veggies with garlic 5 min. 4. Add cumin, cook 1 min. 5. Add broth, tomatoes, lentils. 6. Bring to boil, then simmer 20-25 min until lentils are tender. Season to taste."
+    },
+    {
+      "id": 17,
+      "name": "Cheese Ravioli with Marinara",
+      "time": 15,
+      "ingredients": {
+        "cheese ravioli": {"qty": "20 oz", "section": "refrigerated"},
+        "marinara sauce": {"qty": "24 oz jar", "section": "canned goods"},
+        "parmesan cheese": {"qty": "1/4 cup grated", "section": "dairy"},
+        "basil": {"qty": "2 tbsp fresh", "section": "produce"}
+      },
+      "category": "Italian",
+      "prep": "1. Boil large pot of salted water. 2. Cook ravioli according to package (usually 4-6 min). 3. Meanwhile, heat marinara in separate pot. 4. Drain ravioli, plate. 5. Top with warm marinara, parmesan, and fresh basil."
+    },
+    {
+      "id": 18,
+      "name": "Veggie Fried Rice",
+      "time": 20,
+      "ingredients": {
+        "rice": {"qty": "3 cups cooked", "section": "grains"},
+        "eggs": {"qty": "2", "section": "dairy"},
+        "frozen peas": {"qty": "1 cup", "section": "frozen"},
+        "carrots": {"qty": "2 diced", "section": "produce"},
+        "soy sauce": {"qty": "3 tbsp", "section": "international"},
+        "green onions": {"qty": "4", "section": "produce"},
+        "garlic": {"qty": "2 cloves", "section": "produce"},
+        "sesame oil": {"qty": "1 tbsp", "section": "international"}
+      },
+      "category": "Asian",
+      "prep": "1. Use cold/day-old rice for best results. 2. Scramble eggs, set aside. 3. Stir fry diced carrots 3 min. 4. Add garlic and peas, cook 2 min. 5. Add rice, break up clumps. 6. Add soy sauce and sesame oil. 7. Fold in eggs and sliced green onions."
+    },
+    {
+      "id": 19,
+      "name": "Caprese Sandwich",
+      "time": 10,
+      "ingredients": {
+        "ciabatta bread": {"qty": "2 rolls", "section": "bakery"},
+        "fresh mozzarella": {"qty": "8 oz", "section": "dairy"},
+        "tomatoes": {"qty": "2 large", "section": "produce"},
+        "basil": {"qty": "8 leaves", "section": "produce"},
+        "balsamic glaze": {"qty": "2 tbsp", "section": "oils"},
+        "olive oil": {"qty": "1 tbsp", "section": "oils"}
+      },
+      "category": "Italian",
+      "prep": "1. Slice ciabatta rolls horizontally. 2. Slice mozzarella and tomatoes. 3. Layer mozzarella, tomatoes, and basil on bread. 4. Drizzle with olive oil and balsamic glaze. 5. Season with salt and pepper. Close sandwich."
+    },
+    {
+      "id": 20,
+      "name": "Black Bean Soup",
+      "time": 25,
+      "ingredients": {
+        "black beans": {"qty": "2 cans", "section": "canned goods"},
+        "vegetable broth": {"qty": "2 cups", "section": "canned goods"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "cumin": {"qty": "1 tsp", "section": "spices"},
+        "lime": {"qty": "1", "section": "produce"},
+        "sour cream": {"qty": "1/4 cup", "section": "dairy"},
+        "cilantro": {"qty": "2 tbsp", "section": "produce"}
+      },
+      "category": "Mexican",
+      "prep": "1. Sauté diced onion 5 min. 2. Add garlic and cumin, cook 1 min. 3. Add drained beans and broth. 4. Simmer 15 min. 5. Blend half the soup for creamier texture (optional). 6. Serve with lime juice, sour cream, and cilantro."
+    },
+    {
+      "id": 21,
+      "name": "Vegetable Lo Mein",
+      "time": 25,
+      "ingredients": {
+        "lo mein noodles": {"qty": "8 oz", "section": "international"},
+        "broccoli": {"qty": "2 cups", "section": "produce"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "bell peppers": {"qty": "1", "section": "produce"},
+        "mushrooms": {"qty": "8 oz", "section": "produce"},
+        "soy sauce": {"qty": "1/4 cup", "section": "international"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "ginger": {"qty": "1 inch", "section": "produce"}
+      },
+      "category": "Asian",
+      "prep": "1. Cook noodles according to package. 2. Slice all vegetables. 3. Stir fry garlic and ginger 30 sec. 4. Add carrots (2 min), then broccoli, peppers, mushrooms (3-4 min). 5. Add noodles and soy sauce. 6. Toss everything together until heated through."
+    },
+    {
+      "id": 22,
+      "name": "Spinach Artichoke Pasta",
+      "time": 25,
+      "ingredients": {
+        "pasta": {"qty": "12 oz", "section": "grains"},
+        "spinach": {"qty": "6 oz fresh", "section": "produce"},
+        "artichoke hearts": {"qty": "1 can", "section": "canned goods"},
+        "cream cheese": {"qty": "4 oz", "section": "dairy"},
+        "parmesan cheese": {"qty": "1/2 cup grated", "section": "dairy"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "milk": {"qty": "1/2 cup", "section": "dairy"}
+      },
+      "category": "Italian",
+      "prep": "1. Cook pasta, reserve 1 cup pasta water. 2. Sauté garlic 1 min. 3. Add cream cheese and milk, stir until smooth. 4. Add drained and chopped artichokes. 5. Add spinach, cook until wilted. 6. Toss with pasta and parmesan. Add pasta water if needed."
+    },
+    {
+      "id": 23,
+      "name": "Shakshuka",
+      "time": 25,
+      "ingredients": {
+        "eggs": {"qty": "4", "section": "dairy"},
+        "diced tomatoes": {"qty": "2 cans", "section": "canned goods"},
+        "bell peppers": {"qty": "1", "section": "produce"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "cumin": {"qty": "1 tsp", "section": "spices"},
+        "paprika": {"qty": "1 tsp", "section": "spices"},
+        "feta cheese": {"qty": "2 oz", "section": "dairy"}
+      },
+      "category": "Mediterranean",
+      "prep": "1. Sauté diced onion and peppers 5 min. 2. Add garlic, cumin, paprika, cook 1 min. 3. Add tomatoes, simmer 10 min until thickened. 4. Make 4 wells, crack an egg into each. 5. Cover, cook 5-8 min until eggs set. 6. Crumble feta on top. Serve with crusty bread."
+    },
+    {
+      "id": 24,
+      "name": "Pesto Pasta",
+      "time": 15,
+      "ingredients": {
+        "pasta": {"qty": "12 oz", "section": "grains"},
+        "pesto": {"qty": "1/2 cup", "section": "refrigerated"},
+        "cherry tomatoes": {"qty": "1 cup", "section": "produce"},
+        "parmesan cheese": {"qty": "1/4 cup grated", "section": "dairy"},
+        "pine nuts": {"qty": "2 tbsp", "section": "snacks"}
+      },
+      "category": "Italian",
+      "prep": "1. Cook pasta, reserve 1/2 cup pasta water. 2. Halve cherry tomatoes. 3. Toast pine nuts in dry pan until golden. 4. Toss hot pasta with pesto. 5. Add tomatoes and parmesan. 6. Add pasta water if too thick. Top with pine nuts."
+    },
+    {
+      "id": 25,
+      "name": "Huevos Rancheros",
+      "time": 20,
+      "ingredients": {
+        "eggs": {"qty": "4", "section": "dairy"},
+        "tortillas": {"qty": "4", "section": "bakery"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "salsa": {"qty": "1 cup", "section": "international"},
+        "cheese": {"qty": "1/2 cup shredded", "section": "dairy"},
+        "avocado": {"qty": "1", "section": "produce"},
+        "sour cream": {"qty": "1/4 cup", "section": "dairy"}
+      },
+      "category": "Mexican",
+      "prep": "1. Heat beans with a splash of their liquid. 2. Warm tortillas in dry pan. 3. Fry eggs sunny-side up or to preference. 4. Layer: tortilla, beans, egg, salsa, cheese. 5. Top with sliced avocado and sour cream."
+    },
+    {
+      "id": 26,
+      "name": "Tomato Basil Soup",
+      "time": 25,
+      "ingredients": {
+        "diced tomatoes": {"qty": "2 cans", "section": "canned goods"},
+        "vegetable broth": {"qty": "2 cups", "section": "canned goods"},
+        "basil": {"qty": "1/4 cup fresh", "section": "produce"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "heavy cream": {"qty": "1/2 cup", "section": "dairy"},
+        "olive oil": {"qty": "2 tbsp", "section": "oils"}
+      },
+      "category": "American",
+      "prep": "1. Sauté diced onion in olive oil 5 min. 2. Add garlic, cook 1 min. 3. Add tomatoes and broth, simmer 15 min. 4. Blend until smooth (immersion blender works great). 5. Stir in cream and chopped basil. Season to taste."
+    },
+    {
+      "id": 27,
+      "name": "Vegetable Curry with Naan",
+      "time": 30,
+      "ingredients": {
+        "coconut milk": {"qty": "1 can", "section": "international"},
+        "potatoes": {"qty": "2 medium", "section": "produce"},
+        "cauliflower": {"qty": "2 cups", "section": "produce"},
+        "peas": {"qty": "1 cup frozen", "section": "frozen"},
+        "curry paste": {"qty": "3 tbsp", "section": "international"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "naan bread": {"qty": "4", "section": "bakery"}
+      },
+      "category": "Indian",
+      "prep": "1. Cube potatoes, cut cauliflower into florets. 2. Sauté onion 5 min. 3. Add garlic and curry paste, cook 1 min. 4. Add coconut milk and potatoes, simmer 10 min. 5. Add cauliflower, cook 10 min. 6. Stir in peas last 2 min. 7. Warm naan, serve alongside."
+    },
+    {
+      "id": 28,
+      "name": "Three Bean Chili",
+      "time": 30,
+      "ingredients": {
+        "kidney beans": {"qty": "1 can", "section": "canned goods"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "pinto beans": {"qty": "1 can", "section": "canned goods"},
+        "diced tomatoes": {"qty": "1 can", "section": "canned goods"},
+        "onion": {"qty": "1", "section": "produce"},
+        "chili powder": {"qty": "2 tbsp", "section": "spices"},
+        "cumin": {"qty": "1 tsp", "section": "spices"},
+        "garlic": {"qty": "3 cloves", "section": "produce"}
+      },
+      "category": "American",
+      "prep": "1. Sauté diced onion 5 min. 2. Add garlic, chili powder, cumin, cook 1 min. 3. Add tomatoes and all beans (drained). 4. Add 1 cup water. 5. Simmer 20 min, stirring occasionally. 6. Serve with cheese, sour cream, cornbread."
+    },
+    {
+      "id": 29,
+      "name": "Eggplant Parmesan",
+      "time": 30,
+      "ingredients": {
+        "eggplant": {"qty": "1 large", "section": "produce"},
+        "marinara sauce": {"qty": "24 oz jar", "section": "canned goods"},
+        "mozzarella cheese": {"qty": "8 oz shredded", "section": "dairy"},
+        "parmesan cheese": {"qty": "1/2 cup grated", "section": "dairy"},
+        "breadcrumbs": {"qty": "1 cup", "section": "grains"},
+        "eggs": {"qty": "2", "section": "dairy"},
+        "flour": {"qty": "1/2 cup", "section": "baking"}
+      },
+      "category": "Italian",
+      "prep": "1. Slice eggplant into 1/2 inch rounds, salt and let sit 15 min, pat dry. 2. Set up breading: flour, beaten eggs, breadcrumbs. 3. Bread each slice. 4. Pan fry until golden (3 min per side). 5. Layer in baking dish: sauce, eggplant, cheese. Repeat. 6. Bake 375°F for 20 min."
+    },
+    {
+      "id": 30,
+      "name": "Buddha Bowl",
+      "time": 25,
+      "ingredients": {
+        "quinoa": {"qty": "1 cup", "section": "grains"},
+        "chickpeas": {"qty": "1 can", "section": "canned goods"},
+        "sweet potato": {"qty": "1 large", "section": "produce"},
+        "kale": {"qty": "2 cups", "section": "produce"},
+        "tahini": {"qty": "3 tbsp", "section": "international"},
+        "lemon": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "1 clove", "section": "produce"}
+      },
+      "category": "Healthy",
+      "prep": "1. Cook quinoa according to package. 2. Cube sweet potato, roast at 400°F for 20 min. 3. Drain chickpeas, toss with oil and spices, roast 15 min. 4. Massage kale with olive oil and salt. 5. Make dressing: tahini + lemon juice + garlic + water. 6. Assemble bowls, drizzle with dressing."
+    },
+    {
+      "id": 31,
+      "name": "Mac and Cheese",
+      "time": 20,
+      "ingredients": {
+        "macaroni": {"qty": "12 oz", "section": "grains"},
+        "cheddar cheese": {"qty": "2 cups shredded", "section": "dairy"},
+        "milk": {"qty": "1 cup", "section": "dairy"},
+        "butter": {"qty": "3 tbsp", "section": "dairy"},
+        "flour": {"qty": "2 tbsp", "section": "baking"},
+        "salt": {"qty": "1/2 tsp", "section": "spices"},
+        "pepper": {"qty": "1/4 tsp", "section": "spices"}
+      },
+      "category": "American",
+      "prep": "1. Cook macaroni according to package. 2. Melt butter, whisk in flour, cook 1 min. 3. Slowly whisk in milk, cook until thickened. 4. Remove from heat, stir in cheese until melted. 5. Season with salt and pepper. 6. Toss with pasta."
+    },
+    {
+      "id": 32,
+      "name": "Stuffed Bell Peppers",
+      "time": 30,
+      "ingredients": {
+        "bell peppers": {"qty": "4 large", "section": "produce"},
+        "rice": {"qty": "1 cup cooked", "section": "grains"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "corn": {"qty": "1 cup", "section": "canned goods"},
+        "cheese": {"qty": "1 cup shredded", "section": "dairy"},
+        "salsa": {"qty": "1/2 cup", "section": "international"},
+        "cumin": {"qty": "1 tsp", "section": "spices"}
+      },
+      "category": "Mexican",
+      "prep": "1. Cut tops off peppers, remove seeds. 2. Mix rice, drained beans, corn, half the cheese, salsa, cumin. 3. Stuff peppers with mixture. 4. Place in baking dish with 1/4 inch water. 5. Cover with foil, bake 375°F for 25 min. 6. Uncover, top with remaining cheese, bake 5 min more."
+    },
+    {
+      "id": 33,
+      "name": "Vegetable Teriyaki",
+      "time": 20,
+      "ingredients": {
+        "broccoli": {"qty": "2 cups", "section": "produce"},
+        "snap peas": {"qty": "1 cup", "section": "produce"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "teriyaki sauce": {"qty": "1/3 cup", "section": "international"},
+        "rice": {"qty": "2 cups cooked", "section": "grains"},
+        "sesame seeds": {"qty": "1 tbsp", "section": "international"},
+        "green onions": {"qty": "3", "section": "produce"}
+      },
+      "category": "Asian",
+      "prep": "1. Cook rice if not already made. 2. Slice carrots into coins. 3. Stir fry carrots 3 min. 4. Add broccoli and snap peas, cook 4 min. 5. Add teriyaki sauce, toss to coat. 6. Serve over rice, garnish with sesame seeds and sliced green onions."
+    },
+    {
+      "id": 34,
+      "name": "Bruschetta",
+      "time": 15,
+      "ingredients": {
+        "baguette": {"qty": "1", "section": "bakery"},
+        "tomatoes": {"qty": "4", "section": "produce"},
+        "basil": {"qty": "1/4 cup fresh", "section": "produce"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "olive oil": {"qty": "3 tbsp", "section": "oils"},
+        "balsamic vinegar": {"qty": "1 tbsp", "section": "oils"},
+        "mozzarella cheese": {"qty": "4 oz fresh", "section": "dairy"}
+      },
+      "category": "Italian",
+      "prep": "1. Slice baguette into 1/2 inch rounds. 2. Brush with olive oil, toast under broiler until golden. 3. Dice tomatoes, mix with chopped basil, minced garlic, remaining oil, and balsamic. 4. Rub toast with cut garlic clove. 5. Top with tomato mixture and torn mozzarella."
+    },
+    {
+      "id": 35,
+      "name": "Coconut Rice with Vegetables",
+      "time": 25,
+      "ingredients": {
+        "rice": {"qty": "1 cup", "section": "grains"},
+        "coconut milk": {"qty": "1 can", "section": "international"},
+        "bell peppers": {"qty": "2", "section": "produce"},
+        "peas": {"qty": "1 cup frozen", "section": "frozen"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "soy sauce": {"qty": "2 tbsp", "section": "international"},
+        "lime": {"qty": "1", "section": "produce"}
+      },
+      "category": "Asian",
+      "prep": "1. Cook rice in coconut milk + 1/2 cup water. 2. Slice peppers and carrots. 3. Stir fry vegetables until crisp-tender (5 min). 4. Add peas last 2 min. 5. Season with soy sauce. 6. Serve veggies over coconut rice with lime wedges."
+    },
+    {
+      "id": 36,
+      "name": "Avocado Toast",
+      "time": 10,
+      "ingredients": {
+        "bread": {"qty": "4 slices", "section": "bakery"},
+        "avocado": {"qty": "2", "section": "produce"},
+        "eggs": {"qty": "4", "section": "dairy"},
+        "cherry tomatoes": {"qty": "1 cup", "section": "produce"},
+        "red pepper flakes": {"qty": "1/4 tsp", "section": "spices"},
+        "lemon": {"qty": "1/2", "section": "produce"},
+        "salt": {"qty": "to taste", "section": "spices"}
+      },
+      "category": "American",
+      "prep": "1. Toast bread to desired crispness. 2. Mash avocados with lemon juice and salt. 3. Fry or poach eggs. 4. Halve cherry tomatoes. 5. Spread avocado on toast. 6. Top with egg, tomatoes, and red pepper flakes."
+    },
+    {
+      "id": 37,
+      "name": "Tortellini Soup",
+      "time": 25,
+      "ingredients": {
+        "cheese tortellini": {"qty": "20 oz", "section": "refrigerated"},
+        "vegetable broth": {"qty": "6 cups", "section": "canned goods"},
+        "spinach": {"qty": "4 cups", "section": "produce"},
+        "diced tomatoes": {"qty": "1 can", "section": "canned goods"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "Italian seasoning": {"qty": "1 tsp", "section": "spices"},
+        "parmesan cheese": {"qty": "1/4 cup grated", "section": "dairy"}
+      },
+      "category": "Italian",
+      "prep": "1. Sauté garlic 1 min. 2. Add broth, tomatoes, Italian seasoning, bring to boil. 3. Add tortellini, cook according to package time. 4. Stir in spinach until wilted. 5. Serve topped with parmesan."
+    },
+    {
+      "id": 38,
+      "name": "Taco Salad",
+      "time": 20,
+      "ingredients": {
+        "lettuce": {"qty": "1 head", "section": "produce"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "corn": {"qty": "1 cup", "section": "canned goods"},
+        "tomatoes": {"qty": "2", "section": "produce"},
+        "cheese": {"qty": "1 cup shredded", "section": "dairy"},
+        "tortilla chips": {"qty": "2 cups crushed", "section": "snacks"},
+        "salsa": {"qty": "1/2 cup", "section": "international"},
+        "sour cream": {"qty": "1/4 cup", "section": "dairy"}
+      },
+      "category": "Mexican",
+      "prep": "1. Chop lettuce, dice tomatoes. 2. Heat and season beans with cumin if desired. 3. Arrange lettuce in bowls. 4. Top with beans, corn, tomatoes, cheese. 5. Add crushed tortilla chips. 6. Drizzle with salsa and sour cream."
+    },
+    {
+      "id": 39,
+      "name": "Garlic Butter Pasta",
+      "time": 15,
+      "ingredients": {
+        "pasta": {"qty": "12 oz", "section": "grains"},
+        "butter": {"qty": "4 tbsp", "section": "dairy"},
+        "garlic": {"qty": "6 cloves", "section": "produce"},
+        "parmesan cheese": {"qty": "1/2 cup grated", "section": "dairy"},
+        "parsley": {"qty": "2 tbsp fresh", "section": "produce"},
+        "red pepper flakes": {"qty": "1/4 tsp", "section": "spices"}
+      },
+      "category": "Italian",
+      "prep": "1. Cook pasta, reserve 1 cup pasta water. 2. Melt butter over medium-low heat. 3. Add sliced garlic, cook until golden (2-3 min). 4. Add red pepper flakes. 5. Toss with pasta and parmesan. 6. Add pasta water if needed. Top with parsley."
+    },
+    {
+      "id": 40,
+      "name": "Sweet Potato Black Bean Tacos",
+      "time": 25,
+      "ingredients": {
+        "sweet potato": {"qty": "2 medium", "section": "produce"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "tortillas": {"qty": "8 small", "section": "bakery"},
+        "avocado": {"qty": "1", "section": "produce"},
+        "lime": {"qty": "1", "section": "produce"},
+        "cilantro": {"qty": "1/4 cup", "section": "produce"},
+        "cumin": {"qty": "1 tsp", "section": "spices"},
+        "cheese": {"qty": "1/2 cup", "section": "dairy"}
+      },
+      "category": "Mexican",
+      "prep": "1. Peel and small-dice sweet potatoes. 2. Roast at 400°F for 20 min, or pan-fry with cumin until tender. 3. Heat and season beans. 4. Warm tortillas. 5. Fill with sweet potato, beans, sliced avocado. 6. Top with cheese, cilantro, and lime juice."
+    },
+    {
+      "id": 41,
+      "name": "Ramen Noodle Stir Fry",
+      "time": 15,
+      "ingredients": {
+        "ramen noodles": {"qty": "2 packages", "section": "international"},
+        "eggs": {"qty": "2", "section": "dairy"},
+        "cabbage": {"qty": "2 cups shredded", "section": "produce"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "soy sauce": {"qty": "3 tbsp", "section": "international"},
+        "sesame oil": {"qty": "1 tbsp", "section": "international"},
+        "green onions": {"qty": "4", "section": "produce"}
+      },
+      "category": "Asian",
+      "prep": "1. Cook ramen (discard seasoning packets), drain. 2. Scramble eggs, set aside. 3. Stir fry shredded cabbage and julienned carrots 3-4 min. 4. Add noodles, soy sauce, sesame oil. 5. Fold in eggs and sliced green onions."
+    },
+    {
+      "id": 42,
+      "name": "White Bean and Kale Soup",
+      "time": 30,
+      "ingredients": {
+        "white beans": {"qty": "2 cans", "section": "canned goods"},
+        "kale": {"qty": "4 cups", "section": "produce"},
+        "vegetable broth": {"qty": "6 cups", "section": "canned goods"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "4 cloves", "section": "produce"},
+        "carrots": {"qty": "2", "section": "produce"},
+        "celery": {"qty": "2 stalks", "section": "produce"},
+        "Italian seasoning": {"qty": "1 tsp", "section": "spices"}
+      },
+      "category": "Italian",
+      "prep": "1. Dice onion, carrots, celery. 2. Sauté in olive oil 5-7 min. 3. Add garlic and Italian seasoning, cook 1 min. 4. Add broth and drained beans. 5. Simmer 15 min. 6. Add chopped kale, cook 5 min until tender. Season to taste."
+    },
+    {
+      "id": 43,
+      "name": "Nachos Supreme",
+      "time": 15,
+      "ingredients": {
+        "tortilla chips": {"qty": "1 bag", "section": "snacks"},
+        "cheese": {"qty": "2 cups shredded", "section": "dairy"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "jalapenos": {"qty": "1/4 cup sliced", "section": "canned goods"},
+        "salsa": {"qty": "1/2 cup", "section": "international"},
+        "sour cream": {"qty": "1/2 cup", "section": "dairy"},
+        "guacamole": {"qty": "1/2 cup", "section": "refrigerated"},
+        "tomatoes": {"qty": "2 diced", "section": "produce"}
+      },
+      "category": "Mexican",
+      "prep": "1. Spread chips on baking sheet. 2. Top with drained beans and cheese. 3. Broil 3-5 min until cheese melts. 4. Top with jalapenos, diced tomatoes. 5. Dollop with salsa, sour cream, and guacamole. Serve immediately."
+    },
+    {
+      "id": 44,
+      "name": "Mushroom Stroganoff",
+      "time": 30,
+      "ingredients": {
+        "egg noodles": {"qty": "12 oz", "section": "grains"},
+        "mushrooms": {"qty": "16 oz", "section": "produce"},
+        "onion": {"qty": "1", "section": "produce"},
+        "garlic": {"qty": "3 cloves", "section": "produce"},
+        "sour cream": {"qty": "1 cup", "section": "dairy"},
+        "vegetable broth": {"qty": "1 cup", "section": "canned goods"},
+        "butter": {"qty": "3 tbsp", "section": "dairy"},
+        "thyme": {"qty": "1 tsp", "section": "spices"}
+      },
+      "category": "European",
+      "prep": "1. Cook egg noodles. 2. Slice mushrooms and onion. 3. Sauté onion in butter 5 min. 4. Add mushrooms, cook until browned (8 min). 5. Add garlic and thyme, cook 1 min. 6. Add broth, simmer 5 min. 7. Remove from heat, stir in sour cream. Serve over noodles."
+    },
+    {
+      "id": 45,
+      "name": "Corn and Black Bean Salad",
+      "time": 15,
+      "ingredients": {
+        "corn": {"qty": "2 cans", "section": "canned goods"},
+        "black beans": {"qty": "1 can", "section": "canned goods"},
+        "bell peppers": {"qty": "2", "section": "produce"},
+        "red onion": {"qty": "1/2", "section": "produce"},
+        "cilantro": {"qty": "1/4 cup", "section": "produce"},
+        "lime": {"qty": "2", "section": "produce"},
+        "olive oil": {"qty": "2 tbsp", "section": "oils"},
+        "cumin": {"qty": "1/2 tsp", "section": "spices"}
+      },
+      "category": "Mexican",
+      "prep": "1. Drain corn and beans. 2. Dice bell peppers and red onion. 3. Combine in large bowl. 4. Add chopped cilantro. 5. Dress with lime juice, olive oil, and cumin. 6. Toss well, refrigerate 15 min if time allows. Great with chips or as a side."
+    },
+    {
+      "id": 46,
+      "name": "Veggie Pita Pockets",
+      "time": 15,
+      "ingredients": {
+        "pita bread": {"qty": "4", "section": "bakery"},
+        "hummus": {"qty": "1 cup", "section": "refrigerated"},
+        "cucumber": {"qty": "1", "section": "produce"},
+        "tomatoes": {"qty": "2", "section": "produce"},
+        "lettuce": {"qty": "2 cups", "section": "produce"},
+        "feta cheese": {"qty": "4 oz", "section": "dairy"},
+        "red onion": {"qty": "1/2", "section": "produce"}
+      },
+      "category": "Mediterranean",
+      "prep": "1. Cut pitas in half to form pockets. 2. Dice cucumber and tomatoes. 3. Thinly slice red onion. 4. Spread hummus inside each pita pocket. 5. Stuff with lettuce, cucumber, tomatoes, onion. 6. Crumble feta on top."
+    },
+    {
+      "id": 47,
+      "name": "Tofu Scramble",
+      "time": 20,
+      "ingredients": {
+        "tofu": {"qty": "14 oz block firm", "section": "produce"},
+        "bell peppers": {"qty": "1", "section": "produce"},
+        "onion": {"qty": "1", "section": "produce"},
+        "spinach": {"qty": "2 cups", "section": "produce"},
+        "turmeric": {"qty": "1/2 tsp", "section": "spices"},
+        "nutritional yeast": {"qty": "2 tbsp", "section": "health foods"},
+        "garlic": {"qty": "2 cloves", "section": "produce"},
+        "olive oil": {"qty": "2 tbsp", "section": "oils"}
+      },
+      "category": "American",
+      "prep": "1. Press tofu to remove excess water. 2. Dice peppers and onion. 3. Sauté onion and peppers 5 min. 4. Crumble tofu into pan. 5. Add garlic, turmeric, nutritional yeast. 6. Cook 5-7 min until heated through. 7. Add spinach, cook until wilted. Season with salt and pepper."
+    },
+    {
+      "id": 48,
+      "name": "Spaghetti Aglio e Olio",
+      "time": 20,
+      "ingredients": {
+        "spaghetti": {"qty": "12 oz", "section": "grains"},
+        "olive oil": {"qty": "1/3 cup", "section": "oils"},
+        "garlic": {"qty": "8 cloves", "section": "produce"},
+        "red pepper flakes": {"qty": "1/2 tsp", "section": "spices"},
+        "parsley": {"qty": "1/4 cup fresh", "section": "produce"},
+        "parmesan cheese": {"qty": "1/4 cup grated", "section": "dairy"}
+      },
+      "category": "Italian",
+      "prep": "1. Cook spaghetti, reserve 1 cup pasta water. 2. Thinly slice garlic. 3. Heat olive oil over medium-low, add garlic. 4. Cook until light golden (3-4 min). 5. Add red pepper flakes. 6. Toss with pasta and parsley. Add pasta water if needed. Top with parmesan."
+    },
+    {
+      "id": 49,
+      "name": "Cheese and Vegetable Frittata",
+      "time": 25,
+      "ingredients": {
+        "eggs": {"qty": "8", "section": "dairy"},
+        "cheese": {"qty": "1 cup shredded", "section": "dairy"},
+        "spinach": {"qty": "2 cups", "section": "produce"},
+        "bell peppers": {"qty": "1", "section": "produce"},
+        "onion": {"qty": "1 small", "section": "produce"},
+        "milk": {"qty": "1/4 cup", "section": "dairy"},
+        "olive oil": {"qty": "2 tbsp", "section": "oils"}
+      },
+      "category": "Italian",
+      "prep": "1. Preheat broiler. 2. Whisk eggs with milk, salt, pepper. 3. Sauté diced onion and peppers in oven-safe pan. 4. Add spinach, cook until wilted. 5. Pour eggs over veggies, top with cheese. 6. Cook on stovetop until edges set (5 min). 7. Broil until top is golden (2-3 min)."
+    },
+    {
+      "id": 50,
+      "name": "Mediterranean Couscous",
+      "time": 20,
+      "ingredients": {
+        "couscous": {"qty": "1 cup", "section": "grains"},
+        "cucumber": {"qty": "1", "section": "produce"},
+        "tomatoes": {"qty": "2", "section": "produce"},
+        "feta cheese": {"qty": "4 oz", "section": "dairy"},
+        "olives": {"qty": "1/2 cup", "section": "canned goods"},
+        "red onion": {"qty": "1/2", "section": "produce"},
+        "lemon": {"qty": "1", "section": "produce"},
+        "olive oil": {"qty": "3 tbsp", "section": "oils"}
+      },
+      "category": "Mediterranean",
+      "prep": "1. Cook couscous according to package (usually just add boiling water and cover 5 min). 2. Fluff with fork, let cool slightly. 3. Dice cucumber, tomatoes, red onion. 4. Halve olives. 5. Toss couscous with veggies, lemon juice, olive oil. 6. Crumble feta on top."
+    }
+  ]
+}
